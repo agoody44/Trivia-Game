@@ -102,3 +102,13 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#category {
+    display: flex;
+    justify-content: center;
+}
+
+#difficulty {
+    display: flex;
+    justify-content: center;
+}
