@@ -20,4 +20,4 @@ A simple Trivia game about mythology using open trivia database API.
 [Click Here](#) to see the deployed app!
 
 ## Future Enchancments
-- More Questions 
+- More Questions better UI
