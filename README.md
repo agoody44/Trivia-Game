@@ -13,7 +13,7 @@ A simple Trivia game about mythology using open trivia database API.
 -Trivia Database API
 
 ## Screenshots
-![wireframe](./imgs/Trivia.png)
+![wireframe](./imgs/wireframe.png)
 
 ## Getting Started
 
