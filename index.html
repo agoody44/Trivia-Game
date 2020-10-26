@@ -15,14 +15,29 @@
 </head>
 
 <body>
-    <div id="container">
-        <h1>Mythology Trivia</h1>
-        <button id='btnStart'>Start Game</button>
-        <button id='btnNext'>Next Question</button>
+    <header class='header'><h1>Mythology Trivia</h1></header>
+    
 
-        <button id='btnA'>A</button><button id='btnB'>B</button>
-        <button id='btnC'>C</button>
-        <button id='btnD'>D</button>
+    <div class="container">
+        <div id='question-container' class='hide'></div>
+        <div id='questions'>Question</div>
+        <div class='controls'>
+            <button id='start-btn' class='start-btn btn'>Start Game</button>
+            <button id='next-btn' class='next-btn btn hide'>Next Question</button>
+        </div>
+        <div id='answer-buttons' class= 'btn-grid'>
+            <button class='btn'>A</button>
+            <button class='btn'>B</button>
+            <button class='btn'>C</button>
+            <button class='btn'>D</button>
+        
+        </div>
+    </div>
+
+
+    <footer class='footer'>
+        <p>Copyright &copy; All Rights Reserved 2020 WeatherAPI</p>
+    </footer>
 </body>
 
 </html>
