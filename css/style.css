@@ -88,7 +88,7 @@ footer {
     align-items: center;
 }
 
-.start-btn, .next-btn {
+.start-btn{
     font-size: 30px;
     font-weight: bold;
     padding: 10px, 20px;
