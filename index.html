@@ -15,31 +15,32 @@
 </head>
 
 <body>
-    <header class='header'><h1>Mythology Trivia</h1></header>
-    
+    <header class='header'>
+        <h1>Mythology Trivia</h1>
+    </header>
+
 
     <div class="container">
-        <div id='question-container' class='hide'></div>
-        <div id='questions'>Question</div>
-        <div id='category'>Category</div>
-        <div id='difficulty'>Difficulty</div>
+        <div id='question-container' class='hide'>
+            <div class='scoreBoard'><span class='score-num'>0</span></div>
+            <div id='questions'>Question</div>
+            <div id='category'>Category</div>
+            <div id='difficulty'>Difficulty</div>
 
-        <div class='controls'>
-            <button id='start-btn' class='start-btn btn'>Start Game</button>
-            <button id='next-btn' class='next-btn btn hide'>Next Question</button>
+            <div id='answer-buttons' class='btn-grid'>
+                <button id='answer1' class='btn'>A</button>
+                <button id='answer2' class='btn'>B</button>
+                <button id='answer3' class='btn'>C</button>
+                <button id='answer4' class='btn'>D</button>
+            </div>
         </div>
-        <div id='answer-buttons' class= 'btn-grid'>
-            <button id ='answer1' class='btn'>A</button>
-            <button id ='answer2' class='btn'>B</button>
-            <button id ='answer3' class='btn'>C</button>
-            <button id ='answer4' class='btn'>D</button>
-        
+        <div class='controls'>
+            <button id='startBtn' class='start-btn btn'>Start Game</button>
         </div>
     </div>
 
-
     <footer class='footer'>
-        <p>Copyright &copy; All Rights Reserved 2020 WeatherAPI</p>
+        <p>Copyright &copy; All Rights Reserved 2020 TriviaAPI</p>
     </footer>
 </body>
 
