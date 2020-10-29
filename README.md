@@ -9,7 +9,6 @@ A simple Trivia game about mythology using open trivia database API.
 -JavaScript
 -jQuery
 -Google Fonts
--jQuery Model
 -Trivia Database API
 
 ## Screenshots
@@ -20,4 +19,5 @@ A simple Trivia game about mythology using open trivia database API.
 [Click Here](#) to see the deployed app!
 
 ## Future Enchancments
-- More Questions better UI
+- More Questions $ better UI
+- Add Modal
