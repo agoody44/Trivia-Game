@@ -1,3 +1,7 @@
+/* Google Font Nanum Gothic */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +16,7 @@ body {
     height: 100vh;
     align-items: center;
     background-color: rgb(210, 210, 210);
+    
 }
 
 header,
@@ -21,6 +26,7 @@ footer {
     position: fixed;
     width: 100%;
     height: 70px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 
@@ -39,7 +45,7 @@ footer {
     bottom: 0;
     padding: 20px;
     text-align: center;
-    background: #1abc9c;
+    background: #5f6a68;
     color: #ffffff;
     font-size: 20px;
 }
@@ -52,35 +58,55 @@ footer {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
 }
- 
-.btn-grid{
-   display: grid;
-   grid-template-columns: repeat(2,auto); 
-   gap: 10px;
-   margin: 20px 0;
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
 }
 
-.btn {
+.btnA {
     background-color: rgb(176, 176, 176);
     border: 2px solid rgb(48, 47, 55);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px 10px;
-    
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btnB {
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(48, 47, 55);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btnC {
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(48, 47, 55);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btnD {
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(48, 47, 55);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 .btn:hover {
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0);
 
 }
 
-.btn.correct {
-    background-color: green;
-
-}
-
-.btn.wrong {
-    background-color: red;
-}
 
 .controls {
     display: flex;
@@ -88,11 +114,17 @@ footer {
     align-items: center;
 }
 
-.start-btn{
+.start-btn {
     font-size: 30px;
     font-weight: bold;
     padding: 10px, 20px;
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(48, 47, 55);
+    border-radius: 20px;
+    padding: 5px 10px;
+    
 }
+
 
 .hide {
     display: none;
@@ -101,14 +133,17 @@ footer {
 #questions {
     display: flex;
     justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #category {
     display: flex;
     justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #difficulty {
     display: flex;
     justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
