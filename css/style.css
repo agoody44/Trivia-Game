@@ -131,7 +131,7 @@ footer {
     justify-content: center;
     font-family: 'Nanum Gothic', sans-serif;
 }
-
+/* 
 body.correct {
     background-color: green;
 }
@@ -147,6 +147,6 @@ body.wrong {
 
 .btn.wrong {
     background-color: red;
-}
+} */
 
 /* .forum_hover { background-color: rgb(176, 176, 176); } */
