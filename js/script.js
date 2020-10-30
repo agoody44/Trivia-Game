@@ -78,8 +78,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-      e.stopImmediatePropagation()
-      alert('Wrong!')
+      
+      // alert('Wrong!')
     }
       
       
@@ -91,8 +91,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-      e.stopImmediatePropagation()
-      alert('Wrong!')
+      
+      // alert('Wrong!')
     }
       
     
@@ -103,8 +103,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-      e.stopImmediatePropagation()
-      alert('Wrong!')
+      
+      // alert('Wrong!')
     }
     
   
@@ -114,8 +114,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-      e.stopImmediatePropagation()
-      alert('Wrong!')
+      
+      // alert('Wrong!')
     }
    
   })
