@@ -21,3 +21,4 @@ A simple Trivia game about mythology using open trivia database API.
 ## Future Enchancments
 - More Questions $ better UI
 - Add Modal
+- fix alert issues
