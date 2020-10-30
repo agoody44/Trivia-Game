@@ -16,9 +16,9 @@ A simple Trivia game about mythology using open trivia database API.
 
 ## Getting Started
 
-[Click Here](#) to see the deployed app!
+[Click Here](https://trivia-game-flame.vercel.app/) to see the deployed app!
 
 ## Future Enchancments
-- More Questions $ better UI
+- More Questions & better UI
 - Add Modal
 - fix alert issues
