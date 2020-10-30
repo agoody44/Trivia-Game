@@ -18,7 +18,7 @@ async function sendApiRequest() {
   let response = await fetch(baseURL);
   console.log(response)
   let data = await response.json()
-  // console.log(data);
+  console.log(data);
   useApiData(data)
 }
 
@@ -33,8 +33,6 @@ function useApiData(data) {
     data.results[0].incorrect_answers[1],
     data.results[0].incorrect_answers[2]
   ]
-
-  // let correctAnswer = data.results[0].correct_answer
 
   const answerElements = [
     document.getElementById("answer1"),
@@ -56,45 +54,59 @@ function useApiData(data) {
   // Implements shuffle
   function randomize(array) {
     for (let i = array.length - 1; i > 0; i--) {
-      const index = Math.floor(Math.random() * i);
+      const index = Math.floor(Math.random() * 4);
       const tmp = array[index];
       array[index] = array[i];
       array[i] = tmp;
     }
   }
 
-  $(".btnA").click(function () {
-    if ($(".btnA")[0].innerHTML === data.results[0].correct_answer) {
+  $("#answer1").click(function (e) {
+    if ($("#answer1")[0].innerHTML === data.results[0].correct_answer) {
+      e.preventDefault();
       alert('you are right!');
     } else
+      e.stopImmediatePropagation();
+      e.preventDefault();
       alert('You are Wrong!')
     sendApiRequest()
   })
 
-  $(".btnB").click(function () {
-    if ($(".btnB")[0].innerHTML === data.results[0].correct_answer) {
+  $("#answer2").click(function (e) {
+    if ($("#answer2")[0].innerHTML === data.results[0].correct_answer) {
+      e.stopImmediatePropagation();
+      e.preventDefault();
       alert('You are Right!');
     } else
+     e.stopImmediatePropagation();
+     e.preventDefault();
       alert('You are Wrong!');
     sendApiRequest()
   })
 
-  $(".btnC").click(function () {
-    if ($(".btnC")[0].innerHTML === data.results[0].correct_answer) {
+  $("#answer3").click(function (e) {
+    if ($("#answer3")[0].innerHTML === data.results[0].correct_answer) {
+      e.stopImmediatePropagation();
+      e.preventDefault();
       alert('you are right!');
     } else
       alert('You are Wrong!')
     sendApiRequest()
   })
 
-  $(".btnD").click(function () {
-    if ($(".btnD")[0].innerHTML === data.results[0].correct_answer) {
+  $("#answer4").click(function (e) {
+    if ($("#answer4")[0].innerHTML === data.results[0].correct_answer) {
+      e.stopImmediatePropagation();
+      e.preventDefault();
       alert('you are right!');
     } else
+     e.stopImmediatePropagation();
+     e.preventDefault();
       alert('You are Wrong!')
     sendApiRequest()
   })
 }
+
 
 
 
