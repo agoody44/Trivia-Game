@@ -77,9 +77,9 @@ function useApiData(data) {
     if ($("#answer1")[0].innerHTML === data.results[0].correct_answer) {
       e.stopImmediatePropagation()
       alert("corect");
-      
     } else {
-
+      e.stopImmediatePropagation()
+      alert('Wrong!')
     }
       
       
@@ -91,7 +91,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-
+      e.stopImmediatePropagation()
+      alert('Wrong!')
     }
       
     
@@ -102,7 +103,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-
+      e.stopImmediatePropagation()
+      alert('Wrong!')
     }
     
   
@@ -112,7 +114,8 @@ function useApiData(data) {
       e.stopImmediatePropagation()
       alert("corect");
     } else {
-
+      e.stopImmediatePropagation()
+      alert('Wrong!')
     }
    
   })
