@@ -75,7 +75,8 @@ function useApiData(data) {
 
   $("#answer1").click(function (e) {
     if ($("#answer1")[0].innerHTML === data.results[0].correct_answer) {
-      prompt("corect");
+      e.stopImmediatePropagation()
+      alert("corect");
       
     } else {
 
@@ -87,7 +88,8 @@ function useApiData(data) {
 
   $("#answer2").click(function (e) {
     if ($("#answer2")[0].innerHTML === data.results[0].correct_answer) {
-      prompt("corect");
+      e.stopImmediatePropagation()
+      alert("corect");
     } else {
 
     }
@@ -97,7 +99,8 @@ function useApiData(data) {
 
   $("#answer3").click(function (e) {
     if ($("#answer3")[0].innerHTML === data.results[0].correct_answer) {
-      prompt("corect");
+      e.stopImmediatePropagation()
+      alert("corect");
     } else {
 
     }
@@ -106,7 +109,8 @@ function useApiData(data) {
 
   $("#answer4").click(function (e) {
     if ($("#answer4")[0].innerHTML === data.results[0].correct_answer) {
-      prompt("corect");
+      e.stopImmediatePropagation()
+      alert("corect");
     } else {
 
     }
