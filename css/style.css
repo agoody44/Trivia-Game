@@ -66,34 +66,7 @@ footer {
     margin: 20px 0;
 }
 
-.btnA {
-    background-color: rgb(176, 176, 176);
-    border: 2px solid rgb(48, 47, 55);
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-family: 'Nanum Gothic', sans-serif;
-
-}
-
-.btnB {
-    background-color: rgb(176, 176, 176);
-    border: 2px solid rgb(48, 47, 55);
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-family: 'Nanum Gothic', sans-serif;
-
-}
-
-.btnC {
-    background-color: rgb(176, 176, 176);
-    border: 2px solid rgb(48, 47, 55);
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-family: 'Nanum Gothic', sans-serif;
-
-}
-
-.btnD {
+.btn {
     background-color: rgb(176, 176, 176);
     border: 2px solid rgb(48, 47, 55);
     border-radius: 20px;
@@ -104,6 +77,7 @@ footer {
 
 .btn:hover {
     border-color: rgb(255, 0, 0);
+    background-color: rgb(176, 176, 176);
 
 }
 
@@ -125,6 +99,16 @@ footer {
     
 }
 
+.next-btn {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px, 20px;
+    background-color: rgb(176, 176, 176);
+    border: 2px solid rgb(48, 47, 55);
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+}
 
 .hide {
     display: none;
@@ -147,3 +131,22 @@ footer {
     justify-content: center;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+body.correct {
+    background-color: green;
+}
+
+body.wrong {
+    background-color: red;
+}
+
+.btn.correct {
+    background-color: green;
+}
+
+
+.btn.wrong {
+    background-color: red;
+}
+
+/* .forum_hover { background-color: rgb(176, 176, 176); } */

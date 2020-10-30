@@ -2,15 +2,26 @@ const baseURL = `https://opentdb.com/api.php?amount=5&category=20&difficulty=eas
 
 
 const startButton = document.getElementById('startBtn');
+const nextButton = document.getElementById('nextBtn');
+
 const questionContainerElement = document.getElementById('question-container');
 
 startButton.addEventListener('click', startGame);
+nextButton.addEventListener('click', () => {
+  sendApiRequest()
+})
 
 function startGame() {
   // console.log('Started');
   startButton.classList.add('hide');
   questionContainerElement.classList.remove('hide');
+  nextButton.classList.remove('hide');
 }
+
+
+// function nextQuestion() {
+//   sendApiRequest()
+// }
 
 window.onload = sendApiRequest
 
@@ -61,50 +72,47 @@ function useApiData(data) {
     }
   }
 
+
   $("#answer1").click(function (e) {
     if ($("#answer1")[0].innerHTML === data.results[0].correct_answer) {
-      e.preventDefault();
-      alert('you are right!');
-    } else
-      e.stopImmediatePropagation();
-      e.preventDefault();
-      alert('You are Wrong!')
-    sendApiRequest()
+      prompt("corect");
+      
+    } else {
+
+    }
+      
+      
+    
   })
 
   $("#answer2").click(function (e) {
     if ($("#answer2")[0].innerHTML === data.results[0].correct_answer) {
-      e.stopImmediatePropagation();
-      e.preventDefault();
-      alert('You are Right!');
-    } else
-     e.stopImmediatePropagation();
-     e.preventDefault();
-      alert('You are Wrong!');
-    sendApiRequest()
+      prompt("corect");
+    } else {
+
+    }
+      
+    
   })
 
   $("#answer3").click(function (e) {
     if ($("#answer3")[0].innerHTML === data.results[0].correct_answer) {
-      e.stopImmediatePropagation();
-      e.preventDefault();
-      alert('you are right!');
-    } else
-      alert('You are Wrong!')
-    sendApiRequest()
-  })
+      prompt("corect");
+    } else {
+
+    }
+    
+  
 
   $("#answer4").click(function (e) {
     if ($("#answer4")[0].innerHTML === data.results[0].correct_answer) {
-      e.stopImmediatePropagation();
-      e.preventDefault();
-      alert('you are right!');
-    } else
-     e.stopImmediatePropagation();
-     e.preventDefault();
-      alert('You are Wrong!')
-    sendApiRequest()
+      prompt("corect");
+    } else {
+
+    }
+   
   })
+})
 }
 
 
