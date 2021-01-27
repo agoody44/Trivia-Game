@@ -1,4 +1,4 @@
-const baseURL = `https://opentdb.com/api.php?amount=5&category=20&difficulty=easy&type=multiple`;
+const baseURL = `https://opentdb.com/api.php?amount=20&category=20&type=multiple`;
 
 
 const startButton = document.getElementById('startBtn');
