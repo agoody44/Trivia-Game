@@ -89,7 +89,7 @@ function useApiData(data) {
   $("#answer2").click(function (e) {
     if ($("#answer2")[0].innerHTML === data.results[0].correct_answer) {
       e.stopImmediatePropagation()
-      alert("corect");
+      alert("correct");
     } else {
       
       // alert('Wrong!')
@@ -101,7 +101,7 @@ function useApiData(data) {
   $("#answer3").click(function (e) {
     if ($("#answer3")[0].innerHTML === data.results[0].correct_answer) {
       e.stopImmediatePropagation()
-      alert("corect");
+      alert("correct");
     } else {
       
       // alert('Wrong!')
@@ -112,7 +112,7 @@ function useApiData(data) {
   $("#answer4").click(function (e) {
     if ($("#answer4")[0].innerHTML === data.results[0].correct_answer) {
       e.stopImmediatePropagation()
-      alert("corect");
+      alert("correct");
     } else {
       
       // alert('Wrong!')
