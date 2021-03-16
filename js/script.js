@@ -76,7 +76,7 @@ function useApiData(data) {
   $("#answer1").click(function (e) {
     if ($("#answer1")[0].innerHTML === data.results[0].correct_answer) {
       e.stopImmediatePropagation()
-      alert("corect");
+      alert("correct");
     } else {
       
       // alert('Wrong!')
